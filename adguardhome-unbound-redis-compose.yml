@@ -7,7 +7,7 @@ services:
     command: redis-server /usr/local/etc/redis/redis.conf
     ports:
       # Change the host port if there is a conflict
-      - 6380:6379/tcp
+      - 6379:6379/tcp
     volumes:
       - "./redis-data:/data"
       - "./redis-conf:/usr/local/etc/redis:ro"
@@ -44,13 +44,13 @@ services:
       environment: 
         - TZ=America/New_York
       ports:
-        - 56:53/tcp
-        - 56:53/udp
+        - 53:53/tcp
+        - 53:53/udp
         - 784:784/udp
         - 853:853/tcp
-        - 3001:3000/tcp
-        - 88:80/tcp
-        - 444:443/tcp
+        - 3000:3000/tcp
+        - 80:80/tcp
+        - 443:443/tcp
       volumes:
         - ./adguardhome-workdir:/opt/adguardhome/work
         - ./adguardhome-confdir:/opt/adguardhome/conf
