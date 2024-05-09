@@ -11,7 +11,7 @@ To run, execute the following command from the project root directory:
 ```
 docker compose -f "adguardhome-unbound-redis-compose.yml" up -d --build
  ```
-
+Once running navigate to `http://{$HOSTNAME}:3000` to intialize Adguard Home
 
 ## Tuning
 
