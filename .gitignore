@@ -1,0 +1,10 @@
+.env
+unbound-config/a-records.conf
+unbound-config/remote-control.conf
+unbound-keys/unbound_control.key
+unbound-keys/unbound_control.pem
+unbound-keys/unbound_server.key
+unbound-keys/unbound_server.pem
+redis-data/dump.rdb
+adguardhome-confdir
+adguardhome-workdir
