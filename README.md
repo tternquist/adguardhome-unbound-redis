@@ -1,6 +1,6 @@
 # Docker Compose for Adguard Home - Unbound - Redis Setup
 ## About
-This project is designed to support a docker compose deployment of Pihole using Unbound DNS upstream with a persistent Redis cache for Unbound. 
+This project is designed to support a docker compose deployment of Adguard Home using Unbound DNS upstream with a persistent Redis cache for Unbound. 
 
 The default configuration is tuned for performance:
 - Unbound is configured as a forwarder, see forward-records.conf
